@@ -21,48 +21,6 @@
             <img src="img\robot.svg" alt="Robot" width="40" height="40" />
             <span><strong>Chatbot Project Portfolio</strong></span>
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mynavbar"
-          >
-            <span class="navbar-toggler-icon"> </span>
-          </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto align-items-center">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre esse chatbot</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resumo do Projeto</a>
-              </li>
-              <li>
-                <div class="d-inline-flex p-2">
-                  <div class="p-2">
-                    <a href="https://www.linkedin.com/in/rubateixeira/">
-                      <img
-                        src="img\linkedin.svg"
-                        alt="linkedin"
-                        width="35"
-                        height="35"
-                      />
-                    </a>
-                  </div>
-                  <div class="p-2">
-                    <a href="https://github.com/RubaTeixeira">
-                      <img
-                        src="img\github.svg"
-                        alt="github"
-                        width="35"
-                        height="35"
-                      />
-                    </a>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
       </nav>
     </header>
@@ -73,28 +31,50 @@
       </div>
       <div class="row">
         <div class="col">
-          <h3>Sobre esse chatbot</h3>
+          <h3 id="about1">Sobre esse chatbot</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quo,
-            maiores quis iure odit aperiam modi fugit saepe ipsa voluptate.
-            Quasi aspernatur molestias ut voluptate sunt, quo voluptas obcaecati
-            provident.
+            Torne-se o detetive e mergulhe em um intrigante caso de assassinato,
+            inspirado nos clássicos contos de Sherlock Holmes. <br />
+            <br />
+            Prepare-se para coletar pistas, analisar evidências e decifrar
+            enigmas para solucionar o crime. <br />
+            <br />
+            Baseado na série de jogos de cartas
+            <strong>Elementar</strong> da
+            <a href="https://grokgames.com.br/" target="_blank">Grok Games</a>.
           </p>
           <br />
 
-          <h3>Resumo do Projeto</h3>
+          <h3 id="about2">Resumo do Projeto</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            deleniti praesentium explicabo, nam corrupti reiciendis aspernatur
-            rem obcaecati soluta, rerum ipsa culpa harum! Repellendus nulla
-            laborum illo. Aliquid, debitis sapiente?
+            O jogo foi desenvolvido com a robustez do Dialogflow ES para
+            processamento de linguagem natural, através um fluxo conversacional
+            determinístico, justamente por se tratar de um jogo, pois existe a
+            necessidade de se manter o contexto. <br />
+            <br />
+            Para os processos de backend, foi utilizado o Google Cloud Run, que
+            inclui os serviços de webhook para o funcionamento do jogo.<br /><br />
+            Ele executa dois processos, um para gerar a pistas aleatóriamente e
+            outro para avaliar as respostas do quiz. <br />
+            E para o armazenamento de dados e imagens do jogo utiliza o Google
+            Storage.
+            <br /><br />
+            Se quiser conferir o repositório do projeto, acesse
+            <a
+              href="https://github.com/RubaTeixeira/Detective_Chatbot_Project.git"
+              target="_blank"
+              >aqui</a
+            >!
           </p>
           <br />
 
-          <h5>Me encontre aqui:</h5>
+          <h5>Me encontre:</h5>
           <div class="d-inline-flex p-2">
             <div class="p-2">
-              <a href="https://www.linkedin.com/in/rubateixeira/">
+              <a
+                href="https://www.linkedin.com/in/rubateixeira/"
+                target="_blank"
+              >
                 <img
                   src="img\linkedin.svg"
                   alt="linkedin"
@@ -104,7 +84,7 @@
               </a>
             </div>
             <div class="p-2">
-              <a href="https://github.com/RubaTeixeira">
+              <a href="https://github.com/RubaTeixeira" target="_blank">
                 <img src="img\github.svg" alt="github" width="40" height="40" />
               </a>
             </div>

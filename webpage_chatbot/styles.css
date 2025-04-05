@@ -15,6 +15,11 @@ h5 {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 df-messenger {
   z-index: 9999;
   --df-messenger-bot-message: #4e9451;
